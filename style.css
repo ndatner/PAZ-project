@@ -80,6 +80,25 @@
     list-style: none;
     text-align: center;
     }
-.footmenu {
-    
-}
+.footmenu > ul {
+        direction: rtl;
+        list-style: none;
+        padding-right: 10%;
+        padding-left: 10%;
+        margin: auto;
+        background-color: gray;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+.footmenu > ul > li {
+        display: inline;
+      }
+      
+.footmenu > ul > li > a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        display: inline-block;
+      }
