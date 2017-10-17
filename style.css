@@ -1,27 +1,27 @@
 .body {
     direction: rtl;
+    font-family: Arial;
 }
 
 .header {
     font-family: Arial;
-    font-size: 400px ;
 }
 
 .menu {
     direction: rtl;
-    padding-right: 20px;
-    padding-left: 20px;
   }
   
   .menu > ul {
     direction: rtl;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: auto;
     background-color: gray;
     font-family: Arial;
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
   }
   
   .menu > ul > li {
