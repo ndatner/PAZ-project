@@ -136,9 +136,14 @@ main {
   }
   .map {
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 15px;  
+    
+  }
+
+  .map img {
     padding: 0;
+    height: 160px;
   }
   .footer {
     position: fixed;
