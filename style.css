@@ -162,7 +162,7 @@ main {
     bottom: 1px;
     color: white;
     background: url(images/hp_tab_text_bg.png);
-    opacity:0.8 ;
+    opacity:0.9;
     }
 
   .text-incol-head {
@@ -177,20 +177,38 @@ main {
     margin-top: 4px;
     padding: 0;
     }
-.text-in-col h5 {
-  margin: 0;
+.text-in-col h3 {
+  margin: 2px;
   padding: 0;
   font-size: 14px;
   font-weight: bold;
 }
    .text-incol-text{
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
     position: absolute;
     font-size: 13px;
     line-height: 13px;
    }
+.read-more {
+  position: absolute;
+  bottom: 4px;
+  left: 20px;
+  
+}
 
+.read-more a {
+  color: white;
+  font-size: 13px;
+  background: url(images\read_more_white.png);
+  
+}
+
+.readmore-icon {
+  position: absolute;
+  bottom: 4px;
+  left: 5px;
+}
   .footer {
     position: fixed;
     right: 0;
