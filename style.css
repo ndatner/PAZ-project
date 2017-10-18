@@ -94,7 +94,8 @@ main {
     float: right;
     margin: 0 auto;
     width: 33%;
-    height: 355px;    
+    height: 355px; 
+    position: relative;   
    }
 
   .columnpic img {
@@ -130,8 +131,9 @@ main {
       position: absolute;
       background: transparent;
       top: 0;
-      right: 15px;
+      right: 35px;
   }
+  
   .picinpic {
     position: absolute;
     top: 50px;
@@ -148,6 +150,47 @@ main {
     padding: 0;
     height: 160px;
   }
+  .text-in-col {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin: 0;
+    padding:0; 
+    top: 240px;
+    right: 20px;  
+    left:5px;
+    bottom: 1px;
+    color: white;
+    background: url(images/hp_tab_text_bg.png);
+    opacity:0.8 ;
+    }
+
+  .text-incol-head {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+   }
+   .text-in-col p {
+    font-size: 13px;
+    margin-top: 4px;
+    padding: 0;
+    }
+.text-in-col h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+   .text-incol-text{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 13px;
+    line-height: 13px;
+   }
+
   .footer {
     position: fixed;
     right: 0;
