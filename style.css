@@ -192,23 +192,99 @@ main {
    }
 .read-more {
   position: absolute;
+  padding: 0;
   bottom: 4px;
-  left: 20px;
-  
-}
+  left: 25px;
+  }
 
 .read-more a {
   color: white;
   font-size: 13px;
-  background: url(images\read_more_white.png);
-  
+}
+.readmore-pic img {
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  bottom: 8px;
+  }
+.more-details {
+  position: absolute;
+  padding: 0;
+  bottom: 0px;
+  left: 40px;
+}
+.more-details a {
+  color: black;
+  font-size: 13px;
 }
 
-.readmore-icon {
+.moredetails-pic img {
   position: absolute;
-  bottom: 4px;
-  left: 5px;
+  bottom: 2px;
+  left: 25px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  }
+
+.mapnorth {
+  position : absolute;
+  right: 35px;
+  top: 70px;
+  }
+.mapnorth a {
+  color: black;
+  font-size: 13px;
 }
+
+.mapnorth-pic img {
+  position: absolute;
+  right: 65px;
+  top: 75px;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+.mapcenter {
+  position : absolute;
+  right: 35px;
+  top: 90px;
+  }
+.mapcenter a {
+  color: black;
+  font-size: 13px;
+}
+
+.mapcenter-pic img {
+  position: absolute;
+  right: 65px;
+  top: 95px;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+.mapsouth {
+  position : absolute;
+  right: 35px;
+  top: 110px;
+  }
+.mapsouth a {
+  color: black;
+  font-size: 13px;
+}
+
+.mapsouth-pic img {
+  position: absolute;
+  right: 65px;
+  top: 115px;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
   .footer {
     position: fixed;
     right: 0;
